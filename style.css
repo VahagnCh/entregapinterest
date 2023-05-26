@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+#content {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    margin: 5px 10px;
+}
+
+
+main img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 35px;
+    
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    
+}
+
+
+
+
+#navbar-pinterest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#notifications {
+    width: 50px;
+    height: 50px;
+    max-width: 51px;
+    max-height: 51px;
+    padding: 10px;
+}
+
+#notifications img {
+    width: 20px;
+    height: 20px;
+    max-height: 21px;
+    margin-top: 2px;
+    margin-bottom: auto;
+}
+
+#message {
+    width: 50px;
+    height: 50px;
+    max-width: 51px;
+    padding: 10px;
+}
+
+#message img {
+    width: 20px;
+    height: 20px;
+    max-height: 21px;
+    margin-top: 2px;
+    margin-bottom: auto;
+}
+
+#profile-img {
+    width: 50px;
+    height: 50px;
+    max-width: 51px;
+    max-height: 51px;
+    padding: 10px;
+}
+
+#profile-img img {
+    width: 20px;
+    height: 20px;
+    max-height: 21px;
+    margin-top: 2px;
+    margin-bottom: auto;
+    border-radius: 50%;
+}
+
+#ipiterest-icon {
+
+    width: 50px;
+    height: 50px;
+    max-width: 51px;
+    max-height: 51px
+}
+
+#piterest-icon img {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#home {
+    margin: 5px 10px;
+
+}
+
+#home a {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+#inputsearch {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 10px;
+
+}
+
+#inputsearch i {
+
+    border-radius: 25px 0 0 25px;
+}
+
+#inputsearch input {
+
+    border-radius: 0 25px 25px 0;
+}
+
+form {
+    width: 100%;
+    height: 40px;
+    display: flex;
+
+}
+
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: ghostwhite;
+
+}
+
+.searchicon {
+    align-self: center;
+    padding: 6px 6px;
+    background-color: ghostwhite;
+}
+
+.searchicon img {
+    width: 25px;
+    height: 25px;
+    background-color: ghostwhite;
+}
+
+.icon-link:hover {
+    background-color: #767676;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
